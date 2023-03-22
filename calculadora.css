@@ -1,0 +1,68 @@
+body{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    top: 40px;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/96/1016/42/dark-black-3d-4k-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    opacity: 1;
+    box-shadow: 10px 0px 10px 10px  #b53cf2;
+}
+.contenedor{
+    position: relative;
+    background-image: radial-gradient(circle at 7.39% -0.78%, #ff5bcf 0, #ff50d8 12.5%, #f547e2 25%, #d840ea 37.5%, #b53cf2 50%, #873df9 62.5%, #3c41ff 75%, #0047ff 87.5%, #004dff 100%);
+    justify-content: center;
+    align-items: center;
+    width: 314px;
+    height: 434.3px;
+    display: inline-block;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    position: relative;
+    border: 2px solid black;
+    width: 270px;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    left: 0;
+    margin-top: 0%;
+}
+ul li{
+    position: absolute;
+    right: 20px;
+    list-style: none;
+    font-size: 40px;
+}
+.grid .botones{
+    position: absolute;
+    display: grid;
+    grid-template-columns:repeat(4, 70px);
+    padding-left: 60px;
+    width: 290px;
+    height: 350px;
+    border:  2px solid black;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+}
+p{
+    position: relative;
+    display: block;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: aliceblue;
+    border-radius: 50%;
+}
