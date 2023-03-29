@@ -15,55 +15,60 @@
 .flex img:nth-child(1){
     position: relative;
     background-image:url(imagenes/img1.webp);
-    width: 200px;
-    height: 600px;
+    width: 50%;
+    height: 90vh;
     top: 10px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 30px;
+    border-radius: 100px;
+    cursor: pointer;
 }
 .flex img:nth-child(2) {
     position: relative;
     background-image: url(https://i.pinimg.com/originals/81/25/6a/81256a00f5306f375fb29619931929dc.jpg);
     width: 200px;
-    height: 600px;
+    height: 90vh;
     top: 10px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 30px;
+    border-radius: 100px;
+    cursor: pointer;
 }
 .flex img:nth-child(3) {
     position: relative;
     background-image: url(https://i.pinimg.com/originals/54/6a/f2/546af2d3ab074defe8601abd59133f3c.jpg);
     width: 200px;
-    height: 600px;
+    height: 90vh;
     top: 10px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 30px;
+    border-radius: 100px;
+    cursor: pointer;
 }
 .flex img:nth-child(4) {
     position: relative;
     background-image: url(https://i.pinimg.com/originals/8a/9d/1b/8a9d1bf56fd1423d7b38401a269eefa1.jpg);
     width: 200px;
-    height: 600px;
+    height: 90vh;
     top: 10px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 30px;
+    border-radius: 100px;
+    cursor: pointer;
 }
 .flex img:nth-child(5) {
     position: relative;
     background-image: url(https://f.i.uol.com.br/fotografia/2021/02/18/1613671083602eaaab101f1_1613671083_3x2_md.jpg);
     width: 200px;
-    height: 600px;
+    height: 90vh;
     top: 10px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 30px;
+    border-radius: 100px;
+    cursor: pointer;
 }
