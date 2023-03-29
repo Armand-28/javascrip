@@ -3,7 +3,7 @@
 // nota 2 30%
 // nota 3 40% 
 
-let nombre = prompt("Ingrese su nombre completo");
+let nombre = prompt("InAAAAAAAAAAAAAAAAAAAgrese su nombre completo");
 let nota1 = prompt("Ingrese su primera nota");
 let nota2 = prompt("Ingrese su segunda nota");
 let nota3 = prompt("Ingrese su tercera nota");

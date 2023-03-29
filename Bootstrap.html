@@ -7,6 +7,7 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <link rel="stylesheet" href="Bootstrap.css">
 </head>
 
 <body>
@@ -42,7 +43,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contacto</a>
                     </li>
-                    <button type="button" class="btn btn-dark">Modo oscuro</button>
+                    <button type="button" class="btn btn-dark" id="modoscuro" onclick="temaOscuro" >Modo oscuro</button>
                 </ul>
             </div>
         </div>
@@ -89,34 +90,38 @@
         <button type="button" class="btn btn-dark m-2;">Descargue</button>
         <button type="button" class="btn btn-dark m-2">Te gusta</button>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <div class="container">
+        <h4 class="p-0 my-3 ">Galeria de imagenes</h4>
+        <div class="row">
+            <div class="col-md-4">
+                <ul id="miniaturas" class="list-group">
+                    <li class="list-group-item"><img src="https://wallpaperaccess.com/full/138728.jpg" class="img-fluid" alt=""><p class="fw-medium">Paisaje uno</p></li>
+                    <li class="list-group-item"><img src="https://wallpaperaccess.com/full/138728.jpg" class="img-fluid" alt="">
+                    <p class="fw-medium">Paisaje 2</p></li>
+                    <li class="list-group-item"><img src="https://wallpaperaccess.com/full/138728.jpg" class="img-fluid" alt="">
+                    <p class="fw-medium">Paisaje 3</p></li>
+                </ul>
+            </div>
+            <div class="col-md-8 ">
+                <h3>Descubra</h3>
+                <div id="imagen-grande">
+                    <ul class="list-group">
+                        <li class="list-group-item"><img
+                                src="https://fancyodds.com/wp-content/uploads/2021/12/Astronaut-Wallpaper-4k-HD-Background-Images-Download-Astronaut-Images-for-Pc-Laptop-Desktop-iPhone.jpg"
+                                alt="" height="450px" width="700px">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="my-3 bg-dark py-4">
+        <p class="text-center text-white"> &copy; Sitio web de musica 2023</p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
         crossorigin="anonymous"></script>
 
+        <script src="Bootstrap.js"></script>
 </body>
-
 </html>
