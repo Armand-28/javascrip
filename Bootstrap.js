@@ -1,0 +1,1 @@
+var modoscuro = document.querySelector("#modoscuro");
